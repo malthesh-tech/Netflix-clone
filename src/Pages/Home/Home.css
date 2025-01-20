@@ -68,3 +68,23 @@
     padding-left: 6%;
 }
 
+@media (max-width: 960px) {
+    .caption-img {
+        display: none;
+    }
+    p{
+        display: none;
+    }
+
+    .hero-caption{
+        width: 100%;
+        padding-left: 6%;
+        bottom: 0;
+        position: relative;
+    }
+      .hero-btns{
+        display: none;
+        
+    }  
+}
+
