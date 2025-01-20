@@ -76,6 +76,37 @@
         display: none;
     }
 
+    .banner-img{
+        width: 100%;
+        mask-image: linear-gradient(to right, transparent,black 75%);
+        -weblit-mask-image: linear-gradient(to right, transparent,black 75%);
+    }
+
+    .hero-caption{
+        width: 100%;
+        padding-left: 6%;
+        bottom: 0;
+        position: relative;
+    }
+      .hero-btns{
+        display: none;
+    }
+}
+
+@media (max-width: 480px) {
+    .caption-img {
+        display: none;
+    }
+    p{
+        display: none;
+    }
+
+    .banner-img{
+        width: 100%;
+        mask-image: linear-gradient(to right, transparent,black 75%);
+        -weblit-mask-image: linear-gradient(to right, transparent,black 75%);
+    }
+
     .hero-caption{
         width: 100%;
         padding-left: 6%;
@@ -87,4 +118,5 @@
         
     }  
 }
+
 
